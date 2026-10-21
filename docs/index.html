@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hushpaint: ASMR coloring app for Android</title>
+<meta name="description" content="About Hushpaint, a calm ASMR coloring app for Android: tap-to-fill and free drawing, 72 original pages, works offline, no pop-up ads and no purchases.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hushpaint: ASMR Coloring">
+<meta property="og:description" content="Calm coloring with soft ASMR sounds. No pop-up ads, works offline, autosaves.">
+<meta property="og:image" content="https://nookeshkarri7.github.io/hushpaint-asmr-coloring/assets/feature-graphic.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1F6F78">
+<link rel="icon" href="assets/icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin-top: 28px; }
+  .shots img { border-radius: 28px; border: 8px solid var(--ink); background: var(--ink); }
+  .about ul { color: var(--ink-soft); padding-left: 1.2em; max-width: 36em; }
+  .about li { margin: 8px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <a class="brand" href="https://hushpaint.pages.dev/"><img src="assets/icon.png" alt="" width="36" height="36">hushpaint</a>
+    <nav aria-label="Links">
+      <a href="https://hushpaint.pages.dev/">Website</a>
+      <a href="https://hushpaint.pages.dev/privacy/">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>About Hushpaint</h1>
+        <p class="lede">Hushpaint is a coloring app for Android made for winding down. Each tool has its own quiet sound, every stroke saves itself, and no full-screen ad ever interrupts a picture.</p>
+        <div class="actions">
+          <a class="btn btn-solid" href="https://play.google.com/store/apps/details?id=com.nktools.hushpaint&amp;utm_source=github&amp;utm_medium=pages">Get it on Google Play</a>
+          <a class="btn btn-line" href="https://youtu.be/CG-l_EQA9M8">Watch the trailer</a>
+        </div>
+      </div>
+      <figure class="shot"><img src="assets/coloring.webp" alt="Hushpaint coloring screen with a half-colored mandala" width="540" height="960"></figure>
+    </section>
+
+    <section class="feature about">
+      <div>
+        <h2>What's inside</h2>
+        <ul>
+          <li>Tap-to-fill coloring plus marker, crayon and spray for free drawing that stays under the lines.</li>
+          <li>72 original pages in four sets (Flowers, Mandalas, Cozy, Nature) and a fresh page every day.</li>
+          <li>Coins from coloring, a 7-day check-in and finished pages. Spend them on hints and new pages. Nothing is for sale.</li>
+          <li>Works offline. Paintings stay on your phone, with undo and autosave.</li>
+          <li>Light and dark themes, no flashing effects, reduce-motion respected.</li>
+        </ul>
+      </div>
+      <div class="player"><iframe src="https://www.youtube-nocookie.com/embed/CG-l_EQA9M8?rel=0" title="Hushpaint trailer" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+    </section>
+
+    <section class="video">
+      <h2>Screenshots</h2>
+      <div class="shots">
+        <img src="assets/finished.webp" alt="A finished tulip bouquet with confetti and +20 coins" width="540" height="960" loading="lazy">
+        <img src="assets/my-art.webp" alt="My art gallery with finished pages" width="540" height="960" loading="lazy">
+        <img src="assets/check-in.webp" alt="The 7-day check-in" width="540" height="960" loading="lazy">
+        <img src="assets/dark-mode.webp" alt="Home screen in dark mode" width="540" height="960" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Hushpaint · free, supported by ads</span>
+    <span><a href="https://hushpaint.pages.dev/privacy/">Privacy policy</a> · <a href="mailto:anithabheesetty@gmail.com">Contact</a></span>
+  </footer>
+</div>
+</body>
+</html>
