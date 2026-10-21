@@ -4,7 +4,7 @@ A calm coloring app for Android with soft ASMR sounds. Tap to fill, draw with ma
 
 <a href="https://play.google.com/store/apps/details?id=com.nktools.hushpaint&utm_source=github&utm_medium=readme"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="80"></a>
 
-[![Hushpaint trailer: watch on YouTube](docs/assets/feature-graphic.png)](https://youtu.be/CG-l_EQA9M8)
+[![Hushpaint teaser: watch on YouTube](docs/assets/feature-graphic.png)](https://youtube.com/shorts/9NGe8SAnH34)
 
 <p>
   <img src="docs/assets/coloring.webp" alt="Coloring a mandala with the paint-well dock" width="240">
@@ -27,7 +27,7 @@ A calm coloring app for Android with soft ASMR sounds. Tap to fill, draw with ma
 
 - Website: <https://hushpaint.pages.dev/>
 - Privacy policy: <https://hushpaint.pages.dev/privacy/>
-- Trailer: <https://youtu.be/CG-l_EQA9M8>
+- Teaser: <https://youtube.com/shorts/9NGe8SAnH34>
 - Support: anithabheesetty@gmail.com
 
 ---
